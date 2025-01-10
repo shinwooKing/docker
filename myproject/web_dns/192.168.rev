@@ -1,0 +1,16 @@
+$TTL 3H
+@	IN SOA	ns.example7777.com. root.example7777.com.(
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+		IN	NS 	ns.example7777.com.
+		IN	MX	10 	mail.example7777.com.
+10.200		IN	PTR	mail.example7777.com.
+11.200		IN	PTR	ftp.example7777.com.
+11.200		IN	PTR	dhcp.example7777.com.
+12.200		IN	PTR	intranet.example7777.com.
+13.200		IN	PTR	www.example7777.com.
+13.200		IN	PTR	dns.example7777.com.
+13.200		IN	PTR	ns.example7777.com.
